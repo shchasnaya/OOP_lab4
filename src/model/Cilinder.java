@@ -27,9 +27,8 @@ public class Cilinder extends AbstractForm {
     }
 
     @Override
-    public float volume(){
-
-        return (float) (length*(2/3)* Math.pow(diameter/2, 2));
+    public float volume() {
+        return (float) (Math.PI * Math.pow(diameter/2, 2) * length);
     }
 
 }
