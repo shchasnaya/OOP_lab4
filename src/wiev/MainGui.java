@@ -41,6 +41,7 @@ public class MainGui {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle("Lab4 OOP");
         frame.setContentPane(MainPanel);
+        frame.setMinimumSize(new Dimension(600,400));
         //frame.setLocationRelativeTo(textArea1);
         //frame.setSize(600,300);
 
